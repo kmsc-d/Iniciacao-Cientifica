@@ -1,0 +1,35 @@
+Configurar ambiente virtual:
+
+cd C:\Users\Kelvin\Desktop\IC\scrapping
+
+Criar o ambiente:
+&"C:\Users\Kelvin\AppData\Local\Programs\Python\Python311\python.exe" -m venv venv_scrap
+
+Ativar o ambiente virtual:
+.\venv_scrap\Scripts\activate
+
+Instalar dependências:
+
+pip install -r requirements.txt
+
+pip freeze > requirements.txt
+
+No canto superior direito, clique no kernel atual
+
+Escolha "Python (venv)"
+
+Use Shift+Enter para executar cada célula
+
+Comece pelas importações, depois pré-processamento, modelagem e análise
+
+Métodos alternativos de execução:
+
+Executar tudo: Ctrl+Shift+P > "Jupyter: Run All Cells"
+
+Executar célula atual: Ctrl+Enter
+
+Executar e avançar: Shift+Enter
+
+Desativar ambiente:
+deactivate
+
